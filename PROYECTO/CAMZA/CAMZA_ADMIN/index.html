@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="images/logos/nav.png">
+  <title>CAMZA APP</title>
+  <!--stylesheet-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="styles/styles.css" rel="stylesheet" type="text/css">
+  <link href="styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
+
+  <link href="../css/theme.css" rel="stylesheet">
+  <link href="../css/blue.css" rel="stylesheet" class="colors">
+
+  <!--scripts-->
+  <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="scripts/all-plugins.js"></script>
+  <script type="text/javascript" src="scripts/plugins-activate.js"></script>
+</head>
+
+<body id="page-top">
+
+    <!-- Preloader --> 
+<div id="preloader">
+	<div id="status">
+		<div class="spinner">
+			  <div class="rect1"></div>
+			  <div class="rect2"></div>
+			  <div class="rect3"></div>
+			  <div class="rect4"></div>
+			  <div class="rect5"></div>
+		</div>
+	</div>
+</div>
+<!-- Fin Preloader -->
+
+  <!-- Menú -->
+  <div class="logo">
+    <a href="index.html"><img src="images/logos/logom.png" class="logo" ></a>
+  </div>
+  <a class="campanita" id="button" style="margin-top: 10px;" href="../CAMZA/index.html">
+    <i class="fa fa-bell-o" id="icono" style="color: #fff;"></i>
+  </a>
+  <a class="menu-toggle rounded" id="hide" style="margin-top: 10px; color:#fff;" href="#">
+    <i class="fa fa-bars"></i>
+    <script>
+      $(function(){
+        $('#hide').click(function(){
+          $('#button').toggle();
+        });
+      });
+      </script>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="smooth-scroll" href="#Header"></a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="www.google.com">Asesoría</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Testimonials">Gráficas</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Testimonials">Casos reportados</a>
+      </li>            
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#Header">Mi desempeño</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="smooth-scroll" href="#contactos">Contactos</a>
+      </li>
+      <div class="menuimp">
+      <li class="sidebar-nav-item-2">
+        <a class="smooth-scroll" href="#perfil">Perfil
+        <i class="fa fa-user-circle-o"></i></a>      
+      </li>
+      <li class="sidebar-nav-item-2">
+        <a class="smooth-scroll" href="../php/logout.php">Cerrar Sesión
+        <i class="fa fa-sign-out"></i></a>
+      </li>
+    </div>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section id="Banner" class="content-section" style=" background-image: url(images/slider/slider2.png);">
+    <div class="container content-wrap text-center">
+      <h1 class="titulo">BIENVENIDO A TU <span class="titulo_color">ESPACIO</span></h1>
+      <h3 style="color: #666666;">Haz parte de esta iniciativa de ayudar a quienes lo necesitan</h3>
+      <a class="btn btn-primary btn-xl" href="#Portfolio">EMPEZAR</a>
+    </div>
+    <div class="overlay"></div>
+  </section>
+  <!-- Fin Home -->
+
+  <!-- Instructivo -->
+  <section class="content-section text-center" id="Portfolio">
+    <div class="container">
+      <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">			
+        <h1><span style="padding-top:2px; padding-bottom: 2px;">INSTRUCTIVO</span></h1>							
+      </div>
+      <div class="element-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms"  style="margin-top: 20px;">			
+        <h1>APRENDE Y CONOCE A PROFUNDIDAD</h1>
+        <h3 style="margin-bottom: 35px;">Aquí <span class="main-color">encontrarás </span>más información acerca de tus <span class="main-color">espacios </span> y funciones</h3>
+      </div>
+      <div class="portfolio-wrapper clearfix">
+        <a class="each-portfolio" data-fancybox="cerrar" href="images/p-two.jpeg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="images/p-two.jpeg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">ASESORÍA</h5>
+              <p class="p-desc">¿En qué consiste este espacio?</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpeg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="images/p-three.jpeg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">VALORACIÓN</h5>
+              <p class="p-desc">¿En qué consiste este espacio?</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="images/p-four.jpeg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="images/p-four.jpeg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">GRÁFICAS</h5>
+              <p class="p-desc">¿En qué consiste este espacio?</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="images/p-five.jpeg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="images/p-five.jpeg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">CASOS REPORTADOS</h5>
+              <p class="p-desc">¿En qué consiste este espacio?</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="images/p-six.jpeg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="images/p-six.jpeg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">MI DESEMPEÑO</h5>
+              <p class="p-desc">¿En qué consiste este espacio?</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+        <a class="each-portfolio" data-fancybox="gallery" href="images/p-three.jpeg">
+          <div class="content hover-cont-wrap">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="images/p-three.jpeg">
+            <div class="content-details fadeIn-bottom">
+              <h5 class="p-title">FORO</h5>
+              <p class="p-desc">¿En qué consiste este espacio?</p>
+              <span class="zoom"><i class="fa fa-search-plus"></i></span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Fin instructivo -->
+  
+<!-- Footer -->
+<!-- Redes sociales -->
+<div class="bottom-footer" id="contactos">
+	<div class="container"> 
+		<div class="bottom-footer-center wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">
+			<ul class="bottom-social-icons">
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+			</ul>
+		</div>
+		<!-- Fin Redes sociales -->
+		<div class="bottom-footer-left wow fadeInUp" data-wow-duration="1s" data-wow-delay="450ms">
+			<p><span>&#169; Copyright 2017 Xlight Template by</span>  <a href="https://www.andsolutions.it"> Andsolutions</a></p>
+		</div>		  
+	</div>
+</div>
+<!-- Fin Footer -->	
+
+<!-- Scroll to top -->
+<a href="#" class="foro"><i class="fa fa-comments"></i></a>
+<!-- Fin Scroll to top  -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/retina.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/wow.min.js"></script>	
+	<script src="js/waypoints.min.js"></script>	
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>	
+	<script src="js/jquery.knob.min.js"></script>	
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/custom.js"></script>
+  
+</body>
+
+</html>
